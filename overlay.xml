@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories version="1.0">
+<repo priority="50" status="unofficial">
+	<name>kpcyrd-overlay</name>
+	<description>Personal staging overlay</description>
+	<homepage>http://github.com/kpcyrd/overlay</homepage>
+	<owner>
+		<email>git@rxv.cc</email>
+		<name>kpcyrd</name>
+	</owner>
+	<source type="git">https://github.com/kpcyrd/overlay.git</source>
+	<feed>https://github.com/kpcyrd/overlay/commits/master.atom</feed>
+</repo>
+</repositories>
