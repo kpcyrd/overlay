@@ -238,9 +238,11 @@ RESTRICT="mirror"
 LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86"
-IUSE=""
+IUSE="doc libressl"
 
-RDEPEND="dev-libs/openssl"
+RDEPEND="!libressl? ( dev-libs/openssl:0= )
+         libressl? ( dev-libs/libressl:0= )
+"
 DEPEND="${RDEPEND}
         >=virtual/rust-1.28.0"
 
@@ -253,5 +255,5 @@ src_install() {
 
     doman docs/badtouch.1
     dodoc README.md
-    dodoc scripts/
+    dodoc scripts/*
 }
