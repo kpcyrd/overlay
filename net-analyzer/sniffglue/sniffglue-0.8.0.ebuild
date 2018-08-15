@@ -24,7 +24,7 @@ byteorder-1.2.4
 bytes-0.4.9
 caps-0.2.0
 cc-1.0.18
-cfg-if-0.1.5
+cfg-if-0.1.4
 clap-2.32.0
 cookie-factory-0.2.4
 crossbeam-deque-0.3.1
@@ -50,11 +50,11 @@ futures-0.1.23
 futures-cpupool-0.1.8
 gcc-0.3.54
 generic-array-0.9.0
-h2-0.1.12
+h2-0.1.11
 http-0.1.10
 httparse-1.3.2
 humantime-1.1.1
-hyper-0.12.8
+hyper-0.12.7
 hyper-rustls-0.14.0
 idna-0.1.5
 indexmap-1.0.1
@@ -66,6 +66,7 @@ lazycell-0.6.0
 libc-0.2.43
 log-0.4.3
 matches-0.1.7
+memchr-1.0.2
 memchr-2.0.1
 memoffset-0.2.1
 mio-0.6.15
@@ -74,6 +75,7 @@ net2-0.2.33
 nix-0.11.0
 nix-0.5.1
 nodrop-0.1.12
+nom-3.2.1
 nom-4.0.0
 num-traits-0.1.43
 num-traits-0.2.5
@@ -86,9 +88,9 @@ phf_generator-0.7.22
 phf_shared-0.7.22
 pktparse-0.3.0
 pledge-0.3.1
-proc-macro2-0.4.12
+proc-macro2-0.4.9
 quick-error-1.2.2
-quote-0.6.6
+quote-0.6.5
 rand-0.3.22
 rand-0.4.2
 redox_syscall-0.1.40
@@ -100,8 +102,7 @@ ring-0.13.2
 rust-crypto-0.2.36
 rustc-demangle-0.1.9
 rustc-serialize-0.3.24
-rustc_version-0.2.3
-rusticata-macros-1.0.0
+rusticata-macros-0.3.3
 rustls-0.13.0
 rustyline-1.0.0
 safemem-0.2.0
@@ -109,8 +110,6 @@ scoped-tls-0.1.2
 scopeguard-0.3.3
 sct-0.4.0
 seccomp-sys-0.1.2
-semver-0.9.0
-semver-parser-0.7.0
 serde-1.0.71
 serde_derive-1.0.71
 serde_json-1.0.24
@@ -120,7 +119,7 @@ slab-0.4.1
 sniffglue-0.8.0
 string-0.1.1
 strsim-0.7.0
-syn-0.14.8
+syn-0.14.7
 syscallz-0.7.0
 termcolor-1.0.1
 termion-1.5.1
@@ -128,7 +127,7 @@ textwrap-0.10.0
 thread_local-0.3.5
 threadpool-1.7.1
 time-0.1.40
-tls-parser-0.6.0
+tls-parser-0.5.0
 tokio-0.1.7
 tokio-codec-0.1.0
 tokio-core-0.1.17
