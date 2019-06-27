@@ -225,7 +225,7 @@ RDEPEND="net-libs/libpcap
 		sys-libs/libseccomp
 "
 DEPEND="${RDEPEND}
-		>=virtual/rust-1.26.0"
+		>=virtual/rust-1.34.2"
 
 src_test() {
 	cargo test || die "tests failed"
